@@ -1,0 +1,130 @@
+/* flowEditor.css */
+.flow-editor-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.toolbar {
+  padding: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.button-group {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.button-email {
+  background-color: #2196f3;
+}
+
+.button-email:hover {
+  background-color: #1976d2;
+}
+
+.button-delay {
+  background-color: #4caf50;
+}
+
+.button-delay:hover {
+  background-color: #388e3c;
+}
+
+.button-save {
+  background-color: #9c27b0;
+}
+
+.button-save:hover {
+  background-color: #7b1fa2;
+}
+
+.flow-container {
+  height: calc(100vh - 100px);
+}
+
+/* Node Styles */
+.node {
+  padding: 16px;
+  border-radius: 8px;
+  min-width: 150px;
+}
+
+.node-cold-email {
+  background-color: #e3f2fd;
+  border: 2px solid #2196f3;
+}
+
+.node-delay {
+  background-color: #e8f5e9;
+  border: 2px solid #4caf50;
+}
+
+.node-lead-source {
+  background-color: #f3e5f5;
+  border: 2px solid #9c27b0;
+}
+
+.node-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.node-content {
+  font-size: 14px;
+}
+
+/* Settings Panel */
+.settings-panel {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 320px;
+  height: 100vh;
+  background-color: white;
+  padding: 16px;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.settings-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.form-textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  min-height: 100px;
+  resize: vertical;
+}
